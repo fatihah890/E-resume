@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #b17ea0;
+    padding: 15px;
+    text-align: center;
+}
+
+header {
+    margin: 0 15px;
+    color: rgb(149, 41, 141);
+    text-decoration: none;
+    padding: 10px;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.content-section {
+    background-color:rgb(132, 105, 105);
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+}
+
+    .image-container {
+        margin-bottom: 20px;
+    }
+
+    .image-container img { 
+        width: 150px; 
+        height: 150px; 
+        object-fit: cover; 
+    }
+.text-content {
+    font-size: 17px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer {
+    background-color: #6a455e;
+    text-align: center;
+    padding: 15px;
+}

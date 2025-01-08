@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #b17ea0;
+    text-align: center;
+    padding: 15px;
+}
+
+header {
+    margin: 0 15px;
+    color: rgb(149, 41, 141);
+    text-decoration: none;
+    padding: 10px;
+}
+
+.logo-container {
+    position: absolute;
+    top: -15px; 
+    left: 0; 
+}
+
+.logo {
+    width: 120px; 
+    height: auto;
+}
+
+nav {
+    background-color: #6a455e;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    display: flex;
+   flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+   }
+   
+   .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: center;
+
+}
+
+       .content div {
+        flex: 1;
+        background-color:rgb(132, 105, 105);
+        margin: 0 10px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .center-content {
+        display: flex;
+        justify-content: center; 
+        align-items: center;    
+        height: 100vh;        
+        text-align: center; 
+    }
+
+    .text-content {
+        font-size: 17px; 
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .content img {
+        max-width: 250px;
+        height: auto;
+        }
+
+        
+    footer {
+        background-color: #6a455e;
+        text-align: center;
+        padding: 15px;
+    }
